@@ -11,6 +11,9 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+//@Table(indexes = {
+//        @Index(columnList = "driver_id")
+//})
 public class Booking extends BaseModel{
 
     @Enumerated(value = EnumType.STRING)
